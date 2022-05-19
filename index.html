@@ -1,301 +1,308 @@
 <html>
+
 <head>
   <title>Glosario</title>
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-  
-<style type="text/css">
+
+  <style type="text/css">
     * {
       margin: 0;
       padding: 0;
-      font-family:Raleway;
-      }
-	  
-     table {
-	    color:white;
-	    }
-	
-    .container1{
-	    display:flex;
-	    flex-flow:column;
-      justify-content: center;
-	    }
-	  
-    .container2{
-	    display:flex;
-	    flex-flow:row;
-	    }
-	 
-    a {
-      color:#0099FF;
-    }
-	  
-    .capa {
-	    background:black;
-	    height:40px;
-	    position:relative;
-	    padding:0;
+      font-family: Raleway;
     }
 
-    .imagen{
+    table {
+      color: white;
+    }
+
+    .container1 {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+    }
+
+    .container2 {
+      display: flex;
+      flex-flow: row;
+    }
+
+    a {
+      color: #0099FF;
+    }
+
+    .capa {
+      background: black;
+      height: 40px;
+      position: relative;
+      padding: 0;
+    }
+
+    .imagen {
       justify-content: center;
     }
 
     h2 {
-      text-align:center;
-      padding:0px 0px 0px 30px;	
-      font-size:40px;
+      padding: 0px 0px 0px 30px;
+      font-size: 40px;
       width: 90%;
     }
-    
+
     h3 {
-      text-align:center;
-      padding:0px 0px 0px 30px;	
-      font-size:40px;
+      text-align: center;
+      padding: 0px 0px 0px 30px;
+      font-size: 40px;
     }
-	  
+
     h4 {
-        padding:0px 0px 0px 30px;
-        font-size:16px;
-    }   
-    
+      padding: 0px 0px 0px 30px;
+      font-size: 16px;
+    }
+
     body {
-        background-color: black;
+      background-color: black;
     }
-    
+
     #header_wrap2 {
-        justify-items: center;
-        align-items: flex-end;
-        margin:0px;
+      justify-items: center;
+      align-items: flex-end;
+      margin: 0px;
     }
-    
+
     #header {
-        padding:0px 0px 30px 0px;
-        margin:auto;
-        height:12px;
-        width:100%;
-        font-family:Raleway;
-        font-size:18px;
-        position: sticky;
-        top:0px;
-        background:#02284A;
-        z-index:3;
+      padding: 0px 0px 30px 0px;
+      margin: auto;
+      height: 12px;
+      width: 100%;
+      font-family: Raleway;
+      font-size: 18px;
+      position: sticky;
+      top: 0px;
+      background: #02284A;
+      z-index: 3;
     }
-    
-    ul.nav, .nav li {
-        list-style:none;
+
+    ul.nav,
+    .nav li {
+      list-style: none;
     }
-    
+
     .nav li a {
-        background-color:#02284A;
-        color:white;
-        text-decoration:none;
-        padding:10px 15px;
-        display:block;
+      background-color: #02284A;
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      display: block;
     }
-    
+
     .nav li a:hover {
-        background-color:#021C34;
+      background-color: #021C34;
     }
-    
-    .nav > li {
-        float:left;
+
+    .nav>li {
+      float: left;
     }
-    
+
     .nav li ul {
-        display:none;
-        position:absolute;
-        min-width:140px;
-        min-height:80;
+      display: none;
+      position: absolute;
+      min-width: 140px;
+      min-height: 80;
     }
-    
-    .nav li:hover > ul {
-        display:block;
+
+    .nav li:hover>ul {
+      display: block;
     }
-  
+
     .indice {
-        background:#54ABFA;
-        margin:50px 10px 0 10px;
-        width:35%;
-        height:100%;
-        padding:20px 60px 20px 20px;
-        border-radius:3px;
-        position:sticky;
-        top:55px;
-        z-index:2;
-        display:block;
+      background: #54ABFA;
+      margin: 50px 10px 0 10px;
+      width: auto;
+      height: 100%;
+      padding: 20px 60px 20px 20px;
+      border-radius: 3px;
+      position: sticky;
+      top: 55px;
+      z-index: 2;
+      display: block;
     }
-	  
-    a.contenido{
-	      color:black;
+
+    a.contenido {
+      color: black;
     }
-	  
+
     .indice .indice_titulo {
-        font-size:20px;
-        color:black;
-        padding:0 0 0 10px;
-    }	
-	  
-    .indice .indice_lista{
-	      padding:0 0 0 30px;  
-	  }
-	
-    p{
-        width: 90%;
-        text-align: justify;
+      font-size: 20px;
+      color: black;
+      padding: 0 0 0 10px;
     }
 
-    header{
-        display: flex;
-        justify-content: center;
-        width: 100%;
+    .indice .indice_lista {
+      padding: 0 0 0 30px;
     }
 
-    .titulo{
-        display: flex;
-        justify-content: center;
-        background:black;
-        color:#066DCC; 
-        font-weight:bold; 
-        padding:33px; 
-        font-size:60px
+    p {
+      width: 90%;
+      text-align: justify;
     }
 
-    .logo{
-        display: flex;
-        align-items: center;
+    header {
+      display: flex;
+      justify-content: center;
+      width: 100%;
     }
 
-    .logoimg{
+    .titulo {
+      display: flex;
+      justify-content: center;
+      background: black;
+      color: #066DCC;
+      font-weight: bold;
+      padding: 33px;
+      font-size: 60px
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logoimg {
       display: flex;
       height: 120px;
       align-items: center;
     }
-  </style>  
+  </style>
 
 </head>
 
-  <body>
-    <header>
-      <h3 class="titulo">
-        Asteroides Cercanos a la Tierra (NEAs)
-      </h3>
-      <img src="img/LOGO INAOE 2012 blanco PNG.png" alt="INAOE" class="logoimg">
-    </header>
+<body>
+  <header>
+    <h3 class="titulo">
+      Asteroides Cercanos a la Tierra (NEAs)
+    </h3>
+    <img src="img/LOGO INAOE 2012 blanco PNG.png" alt="INAOE" class="logoimg">
+  </header>
 
-    <hr color="#02284A" size=4>
-<div class="container1">
-  <div id="header">
-    <ul class="nav">
-      <li><a href="https://asteroidesinaoe.github.io/">Inicio</a></li>
-      <li><a href="https://asteroidesinaoe.github.io/Actividades/">Actividades</a>
-        <ul>
-          <li><a href="https://asteroidesinaoe.github.io/Actividad-Curva-de-Luz/">Curva de Luz</a></li>
-          <li><a href="https://asteroidesinaoe.github.io/Actividad-rbitas-de-Asteroides/">Órbitas</a></li>
+  <hr color="#02284A" size=4>
+  <div class="container1">
+    <div id="header">
+      <ul class="nav">
+        <li><a href="https://asteroidesinaoe.github.io/">Inicio</a></li>
+        <li><a href="https://asteroidesinaoe.github.io/Actividades/">Actividades</a>
+          <ul>
+            <li><a href="https://asteroidesinaoe.github.io/Actividad-Curva-de-Luz/">Curva de Luz</a></li>
+            <li><a href="https://asteroidesinaoe.github.io/Actividad-rbitas-de-Asteroides/">Órbitas</a></li>
+          </ul>
+        </li>
+        <li><a href="https://asteroidesinaoe.github.io/Aprender-m-s/">Aprender más</a>
+          <ul>
+            <li><a href="https://asteroidesinaoe.github.io/Rayos-cosmicos/">Rayos cósmicos</a></li>
+            <li><a href="https://asteroidesinaoe.github.io/CCD/">CCD</a></li>
+            <li><a href="https://asteroidesinaoe.github.io/MPO-Canopus/">MPO Canopus</a></li>
+            <li><a href="https://asteroidesinaoe.github.io/Fourier/">Análisis de Fourier</a></li>
+          </ul>
+        </li>
+        <li><a href="https://asteroidesinaoe.github.io/Glosario/">Glosario</a></li>
+        <li><a href="https://asteroidesinaoe.github.io/Contacto/">Contacto</a></li>
+      </ul>
+    </div>
+
+
+    <div class="container2">
+      <div class="indice">
+        <h1 class="indice_titulo"><b>Contenido</b></h1>
+        <ul class="indice_lista">
+          <li><a class="contenido" href="#A" target="_top">A</a></li>
+          <li><a class="contenido" href="#B" target="_top">B</a></li>
+          <li><a class="contenido" href="#C" target="_top">C</a></li>
+          <li><a class="contenido" href="#D" target="_top">D</a></li>
+          <li><a class="contenido" href="#E" target="_top">E</a></li>
+          <li><a class="contenido" href="#F" target="_top">F</a></li>
+          <li><a class="contenido" href="#G" target="_top">G</a></li>
+          <li><a class="contenido" href="#H" target="_top">H</a></li>
+          <li><a class="contenido" href="#I" target="_top">I</a></li>
         </ul>
-      </li>
-      <li><a href="https://asteroidesinaoe.github.io/Aprender-m-s/">Aprender más</a>
-        <ul>
-	  <li><a href="https://asteroidesinaoe.github.io/Rayos-cosmicos/">Rayos cósmicos</a></li>
-	  <li><a href="https://asteroidesinaoe.github.io/CCD/">CCD</a></li>
-	  <li><a href="https://asteroidesinaoe.github.io/MPO-Canopus/">MPO Canopus</a></li>
-	  <li><a href="https://asteroidesinaoe.github.io/Fourier/">Análisis de Fourier</a></li>
-        </ul>
-      </li>
-      <li><a href="https://asteroidesinaoe.github.io/Glosario/">Glosario</a></li>
-      <li><a href="https://asteroidesinaoe.github.io/Contacto/">Contacto</a></li>
-    </ul>
+
+      </div>
+
+
+      <font color="white">
+        <div class="capa"><a name="indice1"></a></div>
+        <h2>Glosario<br><br></h2>
+        <div class="capa"><a name="A"></a></div>
+        <h3><b>A</b></h3>
+        <p>
+          <u>•Afelio:</u> punto en el que un cuerpo se encuentra a la máxima distancia del Sol. <br>
+          abajo
+          <u>•Albedo:</u> porcentaje de radiación que una superficie refleja respecto a la radiación que incide sobre
+          ella.
+        </p>
+        <div class="capa"><a name="B"></a></div>
+        <h3><b>B</b></h3>
+        <div class="capa"><a name="C"></a></div>
+        <h3><b>C</b></h3>
+        <div class="capa"><a name="D"></a></div>
+        <h3><b>D</b></h3>
+        <div class="capa"><a name="E"></a></div>
+        <h3><b>E</b></h3>
+        <p>
+          <u> •Excentricidad:</u> cuantificación de la manera en que un cuerpo se desvía de una circunferencia perfecta.
+        </p>
+        <div class="capa"><a name="F"></a></div>
+        <h3><b>F</b></h3>
+        <div class="capa"><a name="G"></a></div>
+        <h3><b>G</b></h3>
+        <div class="capa"><a name="H"></a></div>
+        <h3><b>H</b></h3>
+        <div class="capa"><a name="I"></a></div>
+        <h3><b>I</b></h3>
+        <div class="capa"><a name="M"></a></div>
+        <h3><b>M</b></h3>
+        <p>
+          <u>•Magnitud absoluta:</u> es la magnitud aparente que un cuerpo tendría a una distancia de 10 parsecs.<br>
+          <u>•Magnitud aparente:</u> cuantificación del brillo de un cuerpo observado desde la Tierra.
+
+        </p>
+
+        <div class="capa"><a name="P"></a></div>
+        <h3><b>P</b></h3>
+        <p>
+          <u>•Parsecs:</u> esta unidad de longitud se entiende como la distancia de la UA (unidas astronómica) subtiende
+          un ángulo de un segundo de arco, 1 pársec = 206265 UA.<br>
+          <u>•Perihelio:</u> punto en el que un cuerpo se encuentra a la menor distancia del Sol.<br>
+          <u>•Periodo orbital:</u> el tiempo que le toma al cuerpo recorrer su órbita.<br>
+          <u>•Periodo de rotación:</u> el tiempo que le toma al cuerpo girar sobre sí mismo.<br>
+
+
+
+        </p>
+        <div class="capa"><a name="S"></a></div>
+        <h3><b>S</b></h3>
+        <p>
+          <u>•Semi eje mayor:</u> semidiámetro mayor (haciendo referencia a que sus orbitas tienen forma de
+          elipses).<br>
+
+        </p>
+        <div class="capa"><a name="U"></a></div>
+        <h3><b>U</b></h3>
+        <p>
+          <u>•Unidad astronómica:</u> es una unidad de longitud definida como la distancia entre la Tierra y el Sol,
+          aproximadamente 149 597 870 700 m.
+        </p>
+
+      </font>
+    </div>
   </div>
 
 
-<div class="container2">
-<div class="indice">
-	<h1 class="indice_titulo"><b>Contenido</b></h1>
-	<ul class="indice_lista">
-	<li><a class="contenido" href="#A" target="_top">A</a></li>
-	<li><a class="contenido" href="#B" target="_top">B</a></li>
-    	<li><a class="contenido" href="#C" target="_top">C</a></li>
-    	<li><a class="contenido" href="#D" target="_top">D</a></li>
-    	<li><a class="contenido" href="#E" target="_top">E</a></li>
-    	<li><a class="contenido" href="#F" target="_top">F</a></li>
-    	<li><a class="contenido" href="#G" target="_top">G</a></li>
-    	<li><a class="contenido" href="#H" target="_top">H</a></li>
-    	<li><a class="contenido" href="#I" target="_top">I</a></li>
-	</ul>
-		
-</div>	  
 
 
-<font color="white">
-<div class="capa"><a name="indice1"></a></div>
-<h2>Glosario<br><br></h2>
-  <div class="capa"><a name="A"></a></div>
-  <h3><b>A</b></h3>
-  <p>
-	  <u>•Afelio:</u> punto en el que un cuerpo se encuentra a la máxima distancia del Sol. <br>
-	  abajo
-	  <u>•Albedo:</u> porcentaje de radiación que una superficie refleja respecto a la radiación que incide sobre ella.
-  </p>
-  <div class="capa"><a name="B"></a></div>
-  <h3><b>B</b></h3>
-  <div class="capa"><a name="C"></a></div>
-  <h3><b>C</b></h3>
-  <div class="capa"><a name="D"></a></div>
-  <h3><b>D</b></h3>
-  <div class="capa"><a name="E"></a></div>
-  <h3><b>E</b></h3>
-	<p>
-		<u> •Excentricidad:</u> cuantificación de la manera en que un cuerpo se desvía de una circunferencia perfecta.
-	</p>
-  <div class="capa"><a name="F"></a></div>
-  <h3><b>F</b></h3>
-  <div class="capa"><a name="G"></a></div>
-  <h3><b>G</b></h3>
-  <div class="capa"><a name="H"></a></div>
-  <h3><b>H</b></h3>
-  <div class="capa"><a name="I"></a></div>
-  <h3><b>I</b></h3>
-  <div class="capa"><a name="M"></a></div>
-  <h3><b>M</b></h3>
-	<p>
-	<u>•Magnitud absoluta:</u> es la magnitud aparente que un cuerpo tendría a una distancia de 10 parsecs.<br>
-	<u>•Magnitud aparente:</u> cuantificación del brillo de un cuerpo observado desde la Tierra.
-	
-	</p>
-	
-  <div class="capa"><a name="P"></a></div>
-  <h3><b>P</b></h3>
-	<p>
-	<u>•Parsecs:</u> esta unidad de longitud se entiende como la distancia de la UA (unidas astronómica) subtiende un ángulo de un segundo de arco, 1 pársec = 206265 UA.<br>
-	<u>•Perihelio:</u> punto en el que un cuerpo se encuentra a la menor distancia del Sol.<br>
-	<u>•Periodo orbital:</u> el tiempo que le toma al cuerpo recorrer su órbita.<br>
-	<u>•Periodo de rotación:</u> el tiempo que le toma al cuerpo girar sobre sí mismo.<br>
-	
-
-
-	</p>
-  <div class="capa"><a name="S"></a></div>
-  <h3><b>S</b></h3>
-	<p>
-	<u>•Semi eje mayor:</u> semidiámetro mayor (haciendo referencia a que sus orbitas tienen forma de elipses).<br>
-	
-	</p>
-  <div class="capa"><a name="U"></a></div>
-  <h3><b>U</b></h3>
-	<p>
-		<u>•Unidad astronómica:</u> es una unidad de longitud definida como la distancia entre la Tierra y el Sol, aproximadamente 149 597 870 700 m.
-	</p>
-  
-</font>   
-</div>
-</div>
-
-
-
-
-<div id="header_wrap2" class"outer">
+  <div id="header_wrap2" class"outer">
     <header clas="inner">
-        <p style="background:black; color:white; padding:25px; text-align:center; font-size:15px">2022 - Página diseñada y desarrollada por el grupo de trabajo BUAP-INAOE del programa: Asteroides Cercanos a la Tierra (NEAs)</p>
-</div>    
-     
+      <p style="background:black; color:white; padding:25px; text-align:center; font-size:15px">2022 - Página diseñada y
+        desarrollada por el grupo de trabajo BUAP-INAOE del programa: Asteroides Cercanos a la Tierra (NEAs)</p>
+  </div>
+
 </body>
+
 </html>
